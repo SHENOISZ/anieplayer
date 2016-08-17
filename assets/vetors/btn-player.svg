@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1052.3622"
+   height="744.09448"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="btn-player.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.087499999"
+     inkscape:cx="627.23625"
+     inkscape:cy="648.31296"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="921"
+     inkscape:window-height="580"
+     inkscape:window-x="215"
+     inkscape:window-y="85"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-308.2677)">
+    <rect
+       style="fill:#ff00ff;stroke:#ffffff;stroke-width:91.61011505;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect2987"
+       width="2524.1631"
+       height="1966.0258"
+       x="-1232.7323"
+       y="-921.03363"
+       rx="10.183943"
+       ry="8.2408295" />
+    <path
+       sodipodi:type="arc"
+       style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2985"
+       sodipodi:cx="395.71429"
+       sodipodi:cy="405.52304"
+       sodipodi:rx="200"
+       sodipodi:ry="200"
+       d="m 595.71429,405.52304 c 0,110.45695 -89.54305,200 -200,200 -110.45695,0 -200,-89.54305 -200,-200 0,-110.45695 89.54305,-200 200,-200 110.45695,0 200,89.54305 200,200 z"
+       transform="translate(72.857147,278.2677)"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-play.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 185.10714,549.16056 -118.093747,66.875 -83.09375,48.875 0,-92.15625 c 0,-1.33031 -1.049555,-2.40625 -2.375,-2.40625 l -37.375,0 c -1.325445,0 -2.375,1.07594 -2.375,2.40625 l 0,216.34375 c 0,1.33031 1.049555,2.40625 2.375,2.40625 l 37.375,0 c 1.325445,0 2.375,-1.07594 2.375,-2.40625 l 0,-88 86.1875,50.71875 114.937497,65.15625 1.125,-135.6875 -1.0625,-132.125 z"
+       id="path3009"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-left.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 733.09375,555.58913 -1.03125,132.125 1.09375,135.71875 114.96875,-65.15625 87.9375,-51.75 0,89.71875 c 0,1.33031 1.0808,2.40625 2.40625,2.40625 l 37.34375,0 c 1.32545,0 2.40625,-1.07594 2.40625,-2.40625 l 0,-216.34375 c 0,-1.33031 -1.0808,-2.40625 -2.40625,-2.40625 l -37.34375,0 c -1.32545,0 -2.40625,1.07594 -2.40625,2.40625 l 0,92.46875 -84.875,-49.90625 -118.09375,-66.875 z"
+       id="path3009-6"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-right.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="star"
+       style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3090"
+       sodipodi:sides="3"
+       sodipodi:cx="107.07617"
+       sodipodi:cy="671.36353"
+       sodipodi:r1="139.63509"
+       sodipodi:r2="70.810966"
+       sodipodi:arg1="0.52359878"
+       sodipodi:arg2="1.5707963"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 228.0037,741.18107 -120.92753,0.99342 -120.92753,-0.99342 59.603435,-105.22303 61.324095,-104.2296 61.3241,104.2296 z"
+       transform="matrix(-0.00954477,0.80194041,-0.80194041,-0.00954477,998.80987,606.53473)"
+       inkscape:transform-center-y="-0.66638946"
+       inkscape:transform-center-x="-27.417609"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-play.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-406.96146,-456.8965)"
+       id="g3092-5">
+      <path
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-stop.png"
+         transform="translate(72.857147,278.2677)"
+         d="m 595.71429,405.52304 c 0,110.45695 -89.54305,200 -200,200 -110.45695,0 -200,-89.54305 -200,-200 0,-110.45695 89.54305,-200 200,-200 110.45695,0 200,89.54305 200,200 z"
+         sodipodi:ry="200"
+         sodipodi:rx="200"
+         sodipodi:cy="405.52304"
+         sodipodi:cx="395.71429"
+         id="path2985-6"
+         style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:20;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-stop.png"
+         ry="2.4012864"
+         rx="2.3925004"
+         y="570.86603"
+         x="395.01535"
+         height="221.14531"
+         width="42.145313"
+         id="rect2989-2"
+         style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:15.99754238;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <rect
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-stop.png"
+         ry="2.4012864"
+         rx="2.3925004"
+         y="571.78955"
+         x="507.49875"
+         height="221.14531"
+         width="42.145313"
+         id="rect2989-3-9"
+         style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:15.99754238;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3856"
+       transform="translate(-1366.8689,-84.908056)"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-sound.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3045"
+         d="m 701.83522,148.19556 -105.85516,58.54229 -9.25162,5.31803 0,-23.162 c 0,-2.37651 -1.0557,-4.28519 -2.37333,-4.28519 l -110.31617,0 c -1.31764,0 -2.37334,1.90868 -2.37334,4.28519 l 0,160.48585 c 0,2.3765 1.0557,4.28519 2.37334,4.28519 l 110.31617,0 c 1.31763,0 2.37333,-1.90869 2.37333,-4.28519 l 0,-24.78817 7.99902,4.8126 104.64653,60.69586 2.21954,-120.95223 0.24169,-120.95223 z"
+         style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3050"
+         d="m 810.00001,100.93361 c 56.8785,147.12534 30.0566,238.45049 -2.8572,325.71429"
+         style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:28.10000038;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3050-3"
+         d="m 884.06761,53.589504 c 73.4136,189.896076 38.7943,307.770296 -3.6878,420.402506"
+         style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:36.26893616;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path3050-6"
+         d="m 736.73286,159.40566 c 39.12636,101.20658 20.67575,164.02857 -1.96544,224.05678"
+         style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:19.3298111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g3001"
+       transform="translate(231.42852,-82.857144)"
+       inkscape:export-filename="/home/shenoisz/Documents/estudos/python/qt4/aniplayer/assets/images/btn-no-sound.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3045-5"
+         d="m 177.84884,-470.18446 -105.621288,58.41295 -9.23118,5.30628 0,-23.11083 c 0,-2.37126 -1.053368,-4.27572 -2.368087,-4.27572 l -110.072446,0 c -1.314729,0 -2.368096,1.90446 -2.368096,4.27572 l 0,160.13129 c 0,2.37124 1.053367,4.27572 2.368096,4.27572 l 110.072446,0 c 1.314719,0 2.368087,-1.90448 2.368087,-4.27572 l 0,-24.73341 7.981348,4.80197 104.41533,60.56176 2.21464,-120.68501 0.24115,-120.685 z"
+         style="opacity:0.4;fill:#ffffff;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3916"
+         d="m 211.8281,-525.29961 c -1.92762,-0.0589 -3.84951,0.95386 -5.28466,2.97814 l -0.43125,0.55811 c -2.87033,4.04853 -2.71655,10.75933 0.32122,14.98849 l 104.72488,145.76032 -107.54861,161.67831 c -2.90035,4.35986 -2.8355,11.01467 0.1622,14.93405 l 0.48047,0.6075 c 2.99775,3.91938 7.75051,3.51097 10.65088,-0.84889 l 107.19656,-161.12073 108.53284,151.12022 c 3.03776,4.22917 7.79013,4.36551 10.66044,0.31696 l 0.43081,-0.61362 c 2.8703,-4.04854 2.75661,-10.70408 -0.28122,-14.93325 l -108.8935,-151.61748 96.43383,-144.9473 c 2.90038,-4.35989 2.79591,-11.01442 -0.20184,-14.9338 l -0.44083,-0.60779 c -2.99777,-3.91937 -7.75095,-3.56649 -10.65133,0.79339 L 321.56843,-376.68594 217.20376,-522.0045 c -1.51888,-2.11456 -3.4482,-3.23616 -5.37579,-3.29511 z"
+         style="opacity:0.4;fill:none;stroke:#ffffff;stroke-width:42.17271042;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+  </g>
+</svg>

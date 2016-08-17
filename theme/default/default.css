@@ -1,0 +1,29 @@
+body {
+    background-color: #333333;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    background-image: url('images/bg-3.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.color-default {
+    /* white 
+    background-color: rgba(255, 255, 255, 0.20);
+    */
+    /* red
+    background-color: rgba(232, 12, 65, 0.90);
+    */
+    /* orange
+    background-color: rgba(255, 102, 13, 0.90);
+    */
+    /* purple
+    background-color: rgba(137, 12, 232, 0.90);
+    */
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.color-default-nivel {
+    background-color: #03ff03;
+}

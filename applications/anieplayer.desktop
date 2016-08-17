@@ -1,0 +1,10 @@
+[Desktop Entry]
+Categories=Qt;AudioVideo;Player;Video;
+Name=anieplayer
+Comment=media player
+Icon=/opt/anieplayer/anieplayer.svg
+Exec=python "/home/shenoisz/Documents/estudos/python/qt4/anieplayer/anieplayer.py" %U
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=audio/ac3;audio/mp4;audio/mpeg;audio/vnd.rn-realaudio;audio/vorbis;audio/x-adpcm;audio/x-matroska;audio/x-mp2;audio/x-mp3;audio/x-ms-wma;audio/x-vorbis;audio/x-wav;audio/mpegurl;audio/x-mpegurl;audio/x-pn-realaudio;audio/x-scpls;video/avi;video/mp4;video/flv;video/mpeg;video/quicktime;video/vnd.rn-realvideo;video/x-matroska;video/x-ms-asf;video/x-msvideo;video/x-ms-wmv;video/x-ogm;video/x-theora;

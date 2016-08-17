@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        Anie Player
+    </title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../theme/default/default.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <audio id="player" src="AniePlayer"></audio>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- content -->
+            <div class="col-xs-9 text-xs-center content-center">
+                <!-- music efects -->
+                <div class="music-views">
+                    <video src="views/01.mp4" id="video-view" loop="loop" autoplay="autoplay" onload="this.volume = 0.0"></video>
+                    <div class="music-views-open color-default-nivel">»</div>
+                </div>
+                <!-- content progress bar -->
+                <div class="progress-content color-default">
+                    <div class="col-xs-2 text-xs-center">
+                        <br> <span class="progress-gettime">00:00:00</span>
+                    </div>
+                    <div class="col-xs-8 text-xs-center">
+                        <br>
+                        <div class="progress-bar">
+                            <div class="progress-nivel color-default-nivel"></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-2 text-xs-center">
+                        <br> <span class="progress-duration">00:00:00</span>
+                    </div>
+                </div>
+                <!-- /content progress bar -->
+            </div>
+            <!-- /content -->
+            <!-- aside right -->
+            <aside class="col-xs-3 text-xs-center content-right color-default">
+                <div class="col-xs-12 text-xs-center">
+                    <div class="music-name">
+                        <span class="music-title">AniePlayer</span>
+                    </div>
+                    <br>
+                    <img src="images/music-cover.png" class="img-thumbnail">
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-4">
+                        <br><br>
+                        <img class="player-btn-left" src="images/btn-left.png">
+                    </div>
+                    <div class="col-xs-4">
+                        <br><br>
+                        <img class="player-btn-play" src="images/btn-stop.png">
+                    </div>
+                    <div class="col-xs-4">
+                        <br><br>
+                        <img class="player-btn-right" src="images/btn-right.png">
+                    </div>
+                </div>
+                <div class="col-xs-12">
+                    <div class="col-xs-4">
+                        <br>
+                        <img class="player-btn-sound" src="images/btn-sound.png">
+                    </div>
+                    <div class="col-xs-8">
+                        <br>
+                        <div class="volume-bar">
+                            <div class="nivel-volume color-default-nivel"></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <!-- /aside right -->
+        </div>
+    </div>
+
+    <script src="libs/jquery-2.1.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/init.js"></script>
+</body>
+
+</html>
