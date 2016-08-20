@@ -2,7 +2,7 @@
 Categories=Qt;AudioVideo;Player;Video;
 Name=anieplayer
 Comment=media player
-Icon=/opt/anieplayer/anieplayer.svg
+Icon=/home/shenoisz/Documents/estudos/python/qt4/anieplayer/anieplayer.svg
 Exec=python "/home/shenoisz/Documents/estudos/python/qt4/anieplayer/anieplayer.py" %U
 Terminal=false
 Type=Application
