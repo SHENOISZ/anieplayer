@@ -6,8 +6,9 @@
 var playing = true,
     mute = true,
     postionX = 0,
-    duration = 0;
-
+    duration = 0,
+    volumeState = null,
+    text_efect = null;
 // objects globals
 
 var btn_play = $('.player-btn-play'),
@@ -20,7 +21,8 @@ var btn_play = $('.player-btn-play'),
     progress_nivel = $('.progress-nivel'),
     documento = $(document),
     music_view_open = $('.music-views-open'),
-    music_view = $('.music-views');
+    music_view = $('.music-views'),
+    titulo = $('.music-title');
 
 
 // var updates
@@ -53,6 +55,24 @@ btn_play.click(function() {
 
 });
 
+function started(args) {
+
+    music = $(args);
+    player_.src = music.attr('data-path');
+    player_.play();
+    playing = true;
+    btn_play.attr('src', 'images/btn-stop.png');
+
+    titulo.html(music.attr('data-name'));
+
+    try {
+        volumeState();
+        text_efect();
+
+    } catch (exception) {}
+
+}
+
 btn_sound.click(function() {
 
     if (mute) {
@@ -72,7 +92,7 @@ btn_sound.click(function() {
 
 volume_bar.click(function(e) {
 
-    function volumeState() {
+    volumeState = function() {
         var barra = volume_bar.width();
 
         function x(args) {
@@ -247,18 +267,24 @@ setTimeout(function() {
 
 // efects
 
-titulo = $('.music-title');
-var tam = titulo.html();
-tam = tam.length * 11;
+text_efect = function() {
 
-titulo.css({ 'width': tam + 'px' });
+    var tam = titulo.html();
+    tam = tam.length * 11;
 
-(function title_efect() {
-    titulo.animate({ 'left': '-' + titulo.width() + 'px' }, 8000, function() {
-        titulo.css({ 'left': '100%' });
-        title_efect();
-    });
-})();
+    titulo.css({ 'width': tam + 'px' });
+
+    (function title_efect() {
+        titulo.animate({ 'left': '-' + titulo.width() + 'px' }, 8000, function() {
+            titulo.css({ 'left': '100%' });
+            title_efect();
+        });
+    })();
+}
+
+text_efect();
+
+// efect video slide
 
 var exibir = true;
 

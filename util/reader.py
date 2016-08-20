@@ -1,5 +1,9 @@
 # -*- encoding:utf-8 -*-
 
+__author__ = 'SHENOISZ'
+
+from playlist import Playlist
+
 class Reader():
     
     def write(self, args, content):
@@ -8,13 +12,21 @@ class Reader():
         html = text.write(content)
         text.close()
 
-    def read(self, args):
+    def read(self, args):     
 
         text = open(args, 'r')
         html = text.read()
         text.close()
         html = str(html)
 
+        return html    
+
+    def render(self, args, music):
+
+        html = self.read(args)
+
+        # music play and name 
+        
         temp = html.split('<audio id="player" src="')[1]
         temp = temp.split('"')[0]
 
@@ -29,14 +41,39 @@ class Reader():
         html = html.replace(
                 '<span class="music-title">' + temp_2 + '</span>',
                 '<span class="music-title">{1}</span>'
-                )   
+                )  
+
+        # playlist
+
+        lista = Playlist()        
+
+        tem_3 = html.split('<!-- loop -->')[1]
+
+        subs = """
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="{0}" data-path="{1}" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>{2}</h5>
+                    </div>
+               """ 
+
+        all = "" 
+
+        try:
+            for media in lista.get_medias(music):
+                nome = self.music_name(media['name'])
+                all += subs.format(nome, media['fullname'], nome)   
+        
+            html = html.replace(tem_3, all) 
+            
+        except:
+            pass          
 
         return html
 
     def add(self, args, music):
         
         music = str(music)
-        html = str(self.read(args))
+        html = str(self.render(args, music))
         html = html.format(music, self.music_name(music))    
         self.write(args, html)
 
@@ -49,4 +86,4 @@ class Reader():
         temp = music.split('.')
         ext = temp[len(temp) - 1]
         music = music.replace('.' + ext, '')
-        return music     
+        return music         

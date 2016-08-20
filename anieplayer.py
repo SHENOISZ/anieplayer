@@ -7,6 +7,7 @@ import sys
 from PyQt4 import QtGui, QtCore
 from PyQt4.QtGui import QApplication, QVBoxLayout
 from PyQt4.QtWebKit import QWebView
+# project
 from util.reader import Reader
 
 class AniPlayer(QtGui.QWidget):
@@ -16,16 +17,16 @@ class AniPlayer(QtGui.QWidget):
     def __init__(self, *args, **kwargs):
 
         super(AniPlayer, self).__init__()
-        #QtGui.QPushButton.__init__(self, *args, **kwargs)
-        #'/home/shenoisz/Documents/estudos/python/qt4/estudos/jojo.mp4'
 
         local = str(sys.argv[0])
         self.local = local.replace('anieplayer.py', '')
 
         try:
             self.music = sys.argv[1]
+
         except:
-            self.music = 'AniePlayer'    
+            self.music = 'AniePlayer'
+
         make = Reader()
         make.add(self.local + 'assets/index.html', self.music)
 
@@ -34,11 +35,9 @@ class AniPlayer(QtGui.QWidget):
     def initUI(self): 
 
         # try media path
-        try:   
-            self.setWindowTitle(self.music + '  -  Anieplayer')
-
-        except:
-            self.setWindowTitle('Anieplayer')
+  
+        # self.setWindowTitle(self.music + '  -  Anieplayer')
+        self.setWindowTitle('Anieplayer')
 
         # create webkit    
         self.resize(960, 410)

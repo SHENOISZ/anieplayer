@@ -1,3 +1,7 @@
+/*
+*@AUTHOR SHENOISZ
+*/
+
 ::selection {
     background-color: #03ff03;
     color: #ffffff;
@@ -10,6 +14,7 @@
     top: 0;
     left: 0;
     background-color: #000000;
+    z-index: 1;
 }
 
 #video-view {
@@ -144,4 +149,10 @@
     width: 0;
     height: 5px;
     border-radius: 5px;
+}
+
+.border-none {
+    /*
+    border: none !important;
+    */
 }

@@ -8,6 +8,8 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="../theme/default/default.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="Swiper-3.3.1/dist/css/swiper.min.css">
+    <link href="css/swiper.config.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,6 +18,63 @@
         <div class="row">
             <!-- content -->
             <div class="col-xs-9 text-xs-center content-center">
+                <!-- music list -->
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <!-- loop -->
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="AMV - Ivy Bridge - Bestamvsofalltime Anime MV ♫" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/AMV - Ivy Bridge - Bestamvsofalltime Anime MV ♫.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>AMV - Ivy Bridge - Bestamvsofalltime Anime MV ♫</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 10" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 10.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 10</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 2" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 2.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>BEST MUSIC MIX 2016 - ♫ 1H Gaming Music ♫ - Dubstep, Trap, EDM 2</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="Bullet Train- Stephen Swartz Feat Joni Fatora" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/Bullet Train- Stephen Swartz Feat Joni Fatora.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>Bullet Train- Stephen Swartz Feat Joni Fatora</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="DNA2 DNA² Opening Full Lyrics Blurry Eyes" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/DNA2 DNA² Opening Full Lyrics Blurry Eyes.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>DNA2 DNA² Opening Full Lyrics Blurry Eyes</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="DNA2 Opening (Sub Espanol) + Link De Descarga [HD]" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/DNA2 Opening (Sub Espanol) + Link De Descarga [HD].mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>DNA2 Opening (Sub Espanol) + Link De Descarga [HD]</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="Now and Then Here and There - ED (w- lyrics)." data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/Now and Then Here and There - ED (w- lyrics)..mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>Now and Then Here and There - ED (w- lyrics).</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="[Hotarubi no Mori e AMV] - Hotaru & Gin- Firefly and Entity" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/[Hotarubi no Mori e AMV] - Hotaru & Gin- Firefly and Entity.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>[Hotarubi no Mori e AMV] - Hotaru & Gin- Firefly and Entity</h5>
+                    </div>
+               
+                    <div class="swiper-slide">
+                        <img src="images/music-icon.svg" data-name="【Kiznaiver 】  OPENING LYRICS キズナイーバー OP 「LAY YOUR HANDS ON ME」" data-path="/media/shenoisz/7D1C84D319575B32/videos/mistos/【Kiznaiver 】  OPENING LYRICS キズナイーバー OP 「LAY YOUR HANDS ON ME」.mp4" class="img-thumbnail border-none" onclick='started(this)'>
+                        <h5>【Kiznaiver 】  OPENING LYRICS キズナイーバー OP 「LAY YOUR HANDS ON ME」</h5>
+                    </div>
+               <!-- loop -->
+                    </div>
+                    <!-- Add Pagination -->
+                    <!--
+                    <div class="swiper-pagination"></div>
+                    -->
+                </div>
+                <!-- /music list -->
                 <!-- music efects -->
                 <div class="music-views">
                     <video src="views/01.mp4" id="video-view" loop="loop" autoplay="autoplay" onload="this.volume = 0.0"></video>
@@ -82,6 +141,8 @@
     <script src="libs/jquery-2.1.4.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/init.js"></script>
+    <script src="Swiper-3.3.1/dist/js/swiper.min.js"></script>
+    <script src="js/swiper.config.js"></script>
 </body>
 
 </html>
